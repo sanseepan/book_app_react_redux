@@ -1,0 +1,60 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.app-header {
+  background-color: #0b53c4;
+  min-height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+input {
+  padding: 2px;
+  font-size: 16px;
+}
+.book-list-main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.list-items {
+  border-radius: 5px;
+  background-color: lightgray;
+  text-align: left;
+  padding: 10px;
+  margin: 20px;
+  position: relative;
+}
+
+.app-body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.plus-square {
+  color: blue;
+  margin-left: 2px;
+}
+
+.plus-square:hover {
+  color: gray;
+}
+
+.times-circle {
+  position: absolute;
+  right: 0;
+  padding: 2px;
+  color: red;
+  margin-right: 3px;
+}
+
+.times-circle:hover {
+  color: gray;
+}
